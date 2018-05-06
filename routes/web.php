@@ -21,3 +21,5 @@ Route::post('delete', 'ListController@delete');
 Route::post('update', 'ListController@update');
 
 Route::get('list/search', 'ListController@search');
+Route::resource('/slider', 'SliderController');
+Route::post('/slider/updateSlider', 'SliderController@updateSlider');
